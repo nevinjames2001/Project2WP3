@@ -1,1 +1,18 @@
-{}
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Test",
+      "author": "evien",
+      "pages": 124,
+      "genre": "Biography"
+    },
+    {
+      "id": 2,
+      "title": "Test",
+      "author": "Test",
+      "pages": 12,
+      "genre": "Non-Fiction"
+    }
+  ]
+}
