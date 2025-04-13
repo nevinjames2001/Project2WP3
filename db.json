@@ -1,18 +1,29 @@
 {
   "books": [
-    {
-      "id": "1",
-      "title": "Test22",
-      "author": "evien",
-      "pages": 124,
-      "genre": "Biography"
-    },
-    {
-      "id": 2,
-      "title": "Test",
-      "author": "Test",
-      "pages": 12,
-      "genre": "Non-Fiction"
-    }
+    { "id": "1", "title": "The Silent Forest", "author": "Eva Green", "pages": 210, "genre": "Fiction" },
+    { "id": "2", "title": "AI Revolution", "author": "Tom Wright", "pages": 340, "genre": "Non-Fiction" },
+    { "id": "3", "title": "Starborne", "author": "Mira Clarke", "pages": 480, "genre": "Science Fiction" },
+    { "id": "4", "title": "Wizards of Wynth", "author": "Leo Howard", "pages": 320, "genre": "Fantasy" },
+    { "id": "5", "title": "Journey to Self", "author": "Sandra Lee", "pages": 150, "genre": "Biography" },
+    { "id": "6", "title": "The Final Clue", "author": "Hannah Black", "pages": 298, "genre": "Mystery" },
+    { "id": "7", "title": "New Eden", "author": "Chris Platt", "pages": 420, "genre": "Science Fiction" },
+    { "id": "8", "title": "The Forgotten Hero", "author": "Marcus Allen", "pages": 390, "genre": "Biography" },
+    { "id": "9", "title": "Realm Breaker", "author": "Diana Frost", "pages": 315, "genre": "Fantasy" },
+    { "id": "10", "title": "Digital Minimalism", "author": "Cal Newport", "pages": 240, "genre": "Non-Fiction" },
+    { "id": "11", "title": "House of Echoes", "author": "Karen Hart", "pages": 275, "genre": "Mystery" },
+    { "id": "12", "title": "Sunset Over Mars", "author": "Jules Vega", "pages": 410, "genre": "Science Fiction" },
+    { "id": "13", "title": "River Song", "author": "Paula White", "pages": 290, "genre": "Fiction" },
+    { "id": "14", "title": "The Inventor's Mind", "author": "Nina George", "pages": 325, "genre": "Non-Fiction" },
+    { "id": "15", "title": "Chronicles of Ardan", "author": "Ben Knight", "pages": 360, "genre": "Fantasy" },
+    { "id": "16", "title": "Unknown Truth", "author": "J. P. Rowe", "pages": 185, "genre": "Mystery" },
+    { "id": "17", "title": "Through the Mist", "author": "Clara Dent", "pages": 250, "genre": "Fiction" },
+    { "id": "18", "title": "Living Bold", "author": "Amelia Drew", "pages": 310, "genre": "Biography" },
+    { "id": "19", "title": "Edge of Nowhere", "author": "Silas Reed", "pages": 275, "genre": "Fiction" },
+    { "id": "20", "title": "The Data Age", "author": "Reed Parker", "pages": 290, "genre": "Non-Fiction" },
+    { "id": "21", "title": "Quantum Drift", "author": "Leah Voss", "pages": 420, "genre": "Science Fiction" },
+    { "id": "22", "title": "Stormbound", "author": "Willow Grey", "pages": 330, "genre": "Fantasy" },
+    { "id": "23", "title": "The Codebreaker", "author": "Linda O’Neil", "pages": 245, "genre": "Biography" },
+    { "id": "24", "title": "Night Watch", "author": "Isaac Moon", "pages": 310, "genre": "Mystery" },
+    { "id": "25", "title": "Shadows of Tomorrow", "author": "Riley Knox", "pages": 385, "genre": "Fiction" }
   ]
 }

@@ -10,12 +10,20 @@ export default function EditBook({ book }) {
 
   const validate = () => {
     const errs = [];
+
     if (updatedBook.title.length < 2 || updatedBook.title.length > 50)
       errs.push("Title must be between 2 and 50 characters.");
     if (updatedBook.pages <= 10 || updatedBook.pages > 2000)
       errs.push("Pages must be greater than 10 and no more than 2000.");
-    const validGenres = ["Fiction", "Non-fiction", "Science Fiction", "Fantasy", "Biography", "Mystery"];
-    if (!validGenres.includes(updatedBook.genre))
+    const validGenres = [
+      "fiction",
+      "non-fiction",
+      "science fiction",
+      "fantasy",
+      "biography",
+      "mystery"
+    ];
+    if (!validGenres.includes(updatedBook.genre.toLowerCase()))
       errs.push("Genre must be either ‘Fiction’,’Non-Fiction’,’Science Fiction’,’Fantasy’,’Biography’ or ‘Mystery’");
 
     setErrors(errs);

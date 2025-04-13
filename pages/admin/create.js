@@ -55,7 +55,8 @@ export default function CreateBook() {
 
     // 2. Find the highest ID (assumes books have numeric IDs)
     const maxId = existingBooks.reduce((max, book) => book.id > max ? book.id : max, 0);
-    const nextId = parseInt(maxId) + 1;
+      const nextIdNum = parseInt(maxId) + 1;
+      const nextId = nextIdNum.toString();
 
 
     await fetch('http://localhost:4000/books', {

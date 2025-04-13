@@ -10,7 +10,7 @@ export default function Admin({ books }) {
       method: 'DELETE',
     });
     router.replace(router.asPath);
-    window.location.reload();
+    // window.location.reload();
   };
 
   const handleNavigate = (path) => {
